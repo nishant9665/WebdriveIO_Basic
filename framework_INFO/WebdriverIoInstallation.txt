@@ -1,0 +1,48 @@
+npm init
+npm install webdriverio --save-dev
+npm install @wdio/cli
+
+./node_modules/.bin/wdio config go to this location and write
+ wdio config
+
+npm install chai-webdriver --save-dev
+npm install local-runner --save-dev
+
+
+wdio.conf.js file
+ beforeTest: function (test, context) {
+          const chai = require('chai')
+          const chaiWebdriver = require('chai-webdriverio').default
+          chai.use(chaiWebdriver(browser))
+
+          global.assert=chai.assert
+          global.should=chai.should
+          global.expect=chai.expect
+     },
+
+npm run test
+##################
+
+
+
+rnd
+npm i --save-dev @wdio/cli
+npx wdio config -y
+
+
+###################
+npx wdio wdio.conf.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+

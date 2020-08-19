@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596623708588' stop='1596623717605'>
+    <name>home page element handle </name>
+    <title>home page element handle </title>
+    <test-cases>
+        <test-case start='1596623708589' status='broken' stop='1596623717603'>
+            <name>verify login Page</name>
+            <title>verify login Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>userNameSendKeys is not defined</message>
+                <stack-trace>ReferenceError: userNameSendKeys is not defined
+                    at Context.&lt;anonymous> (D:\webdriverIO_One\test\testCases\homePage_test.js:11:5)
+                    at Context.executeSync (D:\webdriverIO_One\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\webdriverIO_One\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

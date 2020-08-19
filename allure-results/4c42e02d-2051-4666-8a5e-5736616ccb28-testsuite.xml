@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596448456936' stop='1596448462008'>
+    <name>webdriver.io page2</name>
+    <title>webdriver.io page2</title>
+    <test-cases>
+        <test-case start='1596448456937' status='broken' stop='1596448462007'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>browser.toHaveTitle is not a function</message>
+                <stack-trace>TypeError: browser.toHaveTitle is not a function
+                    at Context.&lt;anonymous> (D:\webdriverIO_One\test\runtest\freeCRMLogin.js:15:29)
+                    at Context.executeSync (D:\webdriverIO_One\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\webdriverIO_One\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

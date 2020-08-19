@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1596521599718' stop='1596521659793'>
+    <name>home page element handle </name>
+    <title>home page element handle </title>
+    <test-cases>
+        <test-case start='1596521599719' status='broken' stop='1596521659787'>
+            <name>verify login Page</name>
+            <title>verify login Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "home page element handle  verify login Page" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (D:\webdriverIO_One\test\testCases\homePage_test.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "home page element handle  verify login Page" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (D:\webdriverIO_One\test\testCases\homePage_test.js)
+                    at Test.Runnable._timeoutError (D:\webdriverIO_One\node_modules\mocha\lib\runnable.js:426:10)
+                    at Timeout.&lt;anonymous> (D:\webdriverIO_One\node_modules\mocha\lib\runnable.js:238:24)
+                    at listOnTimeout (internal/timers.js:531:17)
+                    at processTimers (internal/timers.js:475:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
